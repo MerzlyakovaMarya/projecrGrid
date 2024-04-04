@@ -1,0 +1,569 @@
+
+.header {
+    background-color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+    font-size: 1.0vw;
+    margin-left: -1vw;
+    margin-top: -2vh;
+    padding-bottom: 2vh;
+    padding-top: 8vh;
+    padding-left: 8vw;
+    padding-right: -1vw;
+    display: inline;
+  }
+  
+  .header__item {
+    color: black;
+    text-decoration: none;
+    margin-right: 1.4vw;
+  }
+  .header__item:hover {
+    color:#B88E2F(253, 0, 0);
+  }
+  .header__item:active {
+    color: rgba(243, 166, 0, 0.952);
+  }
+  
+  .header__item__red {
+    color: #B88E2F;
+  }
+  .header__item__red:hover {
+    color: #B88E2F;
+  }
+  
+  .header__item__logo {
+    display: float;
+    margin-right: 14vw;
+    font-weight: 700;
+    font-size: 1.9vw;
+  }
+  .header__item__logo__pic{
+    width: 3.2vw;
+    height: 2.4vw;
+    vertical-align:-0.71vw;
+    margin-left: 5vw;
+  }
+  
+  .header__item__pic1 {
+    display: inline;
+    height: 1vh;
+  }
+  .header__item__pic1{
+    height: 2vh;
+    display: inline;
+    padding-top: 1vh;
+    padding-left: 15vw;
+    width: 1vw;
+    height: 1vw;
+    margin-right: 3vw;
+    vertical-align: -0.2vw;
+  }
+  
+  .header__item__pic2{
+    width: 1vw;
+    height: 1vw;
+    margin-right: 3vw;
+    vertical-align: -0.2vw;
+  }
+  .header__item__pic3{
+    width: 1vw;
+    height: 1vw;
+    margin-right: 3vw ;
+    vertical-align: -0.2vw;
+  
+  }
+  .header__item__login{
+    color: white;
+    margin-right: 3vw;
+  }
+  .banner__item__frame{
+    background-color: #FFF3E3;
+    border: #FFF3E3 20px solid;
+    width: 40vw;
+    height: 25vw;
+    margin-top: -41vw;
+    margin-left: 50vw;
+    z-index: 2;
+    position: absolute;
+  }
+
+  .banner__item__pic{
+    margin-top: 1.6vh;
+    width: 100vw;
+    height: 50vw;
+    z-index: 1;
+    position: relative;
+  }
+
+  .poppins__head1{
+    font-family: 'poppins';
+    font-size: 1.5vw;
+    letter-spacing: 0.5vw;
+    font-weight: 600;
+  }
+  .poppins__head2{
+    font-family: 'poppins';
+    font-size: 4vw;
+    font-weight:bolder;
+    color: #B88E2F;
+    margin-top: -2vw;
+    margin-bottom: -2vw;
+  }
+  .poppins__head3{
+    font-family: 'poppins';
+    font-size: 4vw;
+    font-weight:bolder;
+    color: #B88E2F;
+    margin-top: -2vw;
+  }
+  .poppins__head4{
+    font-family: 'poppins';
+    font-size: 1.3vw;
+    color: #000000;
+    margin-top: -2vw;
+  }
+  .poppins__head5{
+    font-family: 'poppins';
+    font-size: 1.3vw;
+    color: #000000;
+    margin-top: -2vw;
+  }
+  .buy{
+    background-color: #B88E2F;
+    padding-left: 3.5vw;
+    padding-right: 3.5vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    border: #B88E2F;
+    color: white;
+    font-size: 1vw;
+    font-family: 'poppins';
+    font-weight: 800;
+  }
+  .buy:hover{
+    background-color: #b86d2f;
+    padding-left: 3.5vw;
+    padding-right: 3.5vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    border: #B88E2F;
+    color: white;
+    font-size: 1vw;
+    font-family: 'poppins';
+    font-weight: 800;
+  }
+  .browse{
+    font-family: 'poppins';
+    font-weight: 900;
+    font-size: 2vw;
+    margin-left: 41vw;
+  }
+  .lorem{
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 1.5vw;
+    margin-left: 29vw;
+    margin-top: -2vw;
+    margin-bottom: 4vw;
+    
+  }
+  .dining{
+    
+    font-family: 'poppins';
+    font-weight: 900;
+    font-size: 2vw;
+    margin-top: 1vw;
+    margin-left: 12vw;
+  }
+  .living{
+    
+    font-family: 'poppins';
+    font-weight: 900;
+    font-size: 2vw;
+    
+    margin-top: 1vw;
+    margin-left: 12vw;
+  }
+  .bedroom{
+
+    font-family: 'poppins';
+    font-weight: 900;
+    font-size: 2vw;
+    
+    margin-top: 1vw;
+    margin-left: 12vw;
+  }
+  .img1{
+    width: 30vw;
+    height: 40vw;
+    border-radius: 10px;
+    grid-area: card-dining;
+  }
+  .img2{
+    width: 30vw;
+    height: 40vw;
+    border-radius: 10px;
+    grid-area: card-living;
+  }
+  .img3{
+    width: 30vw;
+    height: 40vw;
+    border-radius: 10px;
+    grid-area: card-bedroom;
+  }
+  
+  .container1{display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "card-bedroom card-dining card-living";
+  grid-column-gap: 2vw;
+  grid-row-gap: 2vw;
+  min-height: 20vw;
+  margin-top: 2vw;
+  width: 100%;
+  justify-self: center;}
+
+  .browse1{
+    font-family: 'poppins';
+    font-weight: 900;
+    font-size: 2vw;
+    margin-left: 41vw;
+    margin-top: 5vw;
+    margin-bottom: -95vw;
+  }
+  
+  .container2{display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "fe fe1 fe2 fe3" "fe4 fe5 fe6 fe7";
+    gap: 10px;
+    min-height: 20vw;
+    width: 100%;
+    justify-self: center;
+margin-top: 100vw;}
+    .fe{
+        grid-area: fe;
+        
+    width: 20vw;
+    height: 30vw;
+    }
+    .fe1{
+        grid-area: fe1;
+        width: 20vw;
+    height: 30vw;
+    }
+    .fe2{
+        grid-area: fe2;
+        width: 20vw;
+    height: 30vw;
+    }
+    .fe3{
+        grid-area: fe3;
+        width: 20vw;
+    height: 30vw;
+    }
+    .fe4{
+        grid-area: fe4;
+        width: 20vw;
+    height: 30vw;
+
+    }
+    .fe5{
+        grid-area: fe5;
+        width: 20vw;
+    height: 30vw;
+    }
+    .fe6{
+        grid-area:fe6;
+        width: 20vw;
+    height: 30vw;
+    }
+    .fe7{
+        grid-area: fe7;
+        width: 20vw;
+    height: 30vw;
+    }
+    .show{
+    background-color: #ffffff;
+    padding-left: 5.5vw;
+    padding-right: 5.5vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    border: #B88E2F solid 1px;
+    color: #B88E2F;
+    font-size: 1.3vw;
+    font-family: 'poppins';
+    font-weight: 800;
+margin-left: 37.5vw;
+margin-top: 2vw;}
+.show:hover{
+  background-color:#B88E2F;
+  padding-left: 5.5vw;
+  padding-right: 5.5vw;
+  padding-top: 1.5vw;
+  padding-bottom: 1.5vw;
+  border:  #ffffff solid 1px;
+  color:  #ffffff;
+  font-size: 1.3vw;
+  font-family: 'poppins';
+  font-weight: 800;
+margin-left: 37.5vw;
+margin-top: 2vw;}
+.beautiful{font-family: 'poppins';
+    font-weight: 1000;
+    font-size: 2.5vw;
+    margin-left: 2vw;
+margin-bottom: -2vw;
+margin-top: 15vw;}
+.inspiration{font-family: 'poppins';
+    font-weight: 900;
+    font-size: 2.5vw;
+    margin-left: 2vw;
+margin-top: 1vw;}
+.our{
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 1.15vw;
+    margin-left: 2vw;
+    margin-top: -2vw;
+    margin-bottom: 4vw;}
+.prototype{
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 1.15vw;
+    margin-left: 2vw;
+    margin-top: -4vw;
+    margin-bottom: -19vw;}
+.explore{
+    background-color: #B88E2F;
+    padding-left: 3.5vw;
+    padding-right: 3.5vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    border: #B88E2F;
+    color: white;
+    font-size: 1vw;
+    font-family: 'poppins';
+    font-weight: 800;
+    margin-left: 2vw;
+    margin-top: -10vw;
+}
+.explore:hover{
+  background-color: #b86d2f;
+  padding-left: 3.5vw;
+  padding-right: 3.5vw;
+  padding-top: 1.5vw;
+  padding-bottom: 1.5vw;
+  border: #B88E2F;
+  color: white;
+  font-size: 1vw;
+  font-family: 'poppins';
+  font-weight: 800;
+  margin-left: 2vw;
+  margin-top: -10vw;
+}
+    .page2_frame{
+        border: #ffffff solid 2px;
+        background-color: #FFF3E3;
+        width: 90vw;
+        height: 50vw;
+        margin-left: 2vw;
+        margin-top: 2vw;
+    }
+    .inner{
+width: 25vw;
+height: 35vw;
+margin-left: 18vw;
+margin-top: -30vw;
+    }
+    .rect{
+
+        width: 25vw;
+        height: 35vw;
+    }
+.Share{
+    font-family: 'poppins';
+    font-size: 1.5vw;
+    font-weight: 500;
+    margin-left: 40vw;
+}
+.Furniture{
+    font-family: 'poppins';
+    font-size: 2.5vw;
+    font-weight: 900;
+    margin-top: -2vw;
+    margin-left: 37vw;
+}
+.wrapper7{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 4fr;
+    grid-template-rows: 5vw;
+    margin-top: 5vw;
+}
+.box34{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    min-width: 2vw;
+}
+.box35{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    margin-left: -0.5vw;
+    font-size: 1vw;
+    letter-spacing: 0.03vw;
+}
+
+.box36{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    font-size: 7vw;
+    font-weight: 800;
+    margin-top: 2vw;
+    margin-left: -2vw;
+}
+
+.box37{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.box38{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+.box39{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+.box40{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.box41{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.box42{
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin-left: 2vw;
+    margin-top: 3vw;
+}
+
+.rect36{
+    height: 22vw;
+    width:6vw ;
+    margin-top: -2vw;
+}
+.rect37{
+    height: 20vw;
+    width:12vw ;
+    margin-left: 1vw;
+    margin-top: -2vw;
+}
+.rect38{
+    height: 17vw;
+    width:27vw ;
+    margin-left: -2vw;
+    margin-top: 1vw;
+}
+.rect39{
+    height: 15vw;
+    width:21vw ;
+    margin-left: 2vw;
+    margin-top: -2vw;
+}
+.rect40{
+    height: 20vw;
+    width:16vw ;
+    margin-left: 2vw;
+    margin-top: 5vw;
+}
+.rect41{
+    height: 15vw;
+    width:11vw ;
+    margin-left: 20vw;
+    margin-top: 1vw;
+}
+.rect43{
+    height: 20vw;
+    width:16vw ;
+    margin-left: 20vw;
+    margin-top: -2vw;
+}
+.rect44{
+    height: 15vw;
+    width:20vw ;
+    margin-left: -3vw;
+    margin-top: 1vw;
+}
+.rect45{
+    height: 25vw;
+    width:19vw ;
+    margin-top: -5vw;
+}
+.column1{
+    margin-top: 7vw;
+    font-family: 'poppins';
+    font-size: 1.2vw;
+    width: 24vw;
+    margin-bottom: -2vw;
+}
+.column2{
+    font-family: 'poppins';
+    font-size: 1.2vw;
+    margin-left: 36vw;
+    margin-top: -8vw;
+    margin-bottom: -15vw;
+}
+.column3{
+    font-family: 'poppins';
+    font-size: 1.2vw;
+    margin-left: 55vw;
+    margin-bottom: -12vw;
+}
+.column4{
+    font-family: 'poppins';
+    font-size: 1.2vw;
+    margin-left: 78vw;
+}
+.name{
+    font-weight: 900;
+    font-size: 2vw;
+}
+
+.link{
+    color: grey;
+}
+.help{
+    color: grey;
+}
+.Newsletter{
+    color: grey;
+}
+.uni{
+    color: grey;
+}
+.sub{
+  color:#000000;
+}
+.sub:hover{
+  color:#000000;
+}
